@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Secure Authentication Audit Report</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Segoe UI,sans-serif;
+background:#0a0f1c;
+color:#ffffff;
+}
+
+.hero{
+background:linear-gradient(135deg,#111827,#1e3a8a,#0f172a);
+padding:80px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:3.5rem;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.2rem;
+color:#cbd5e1;
+}
+
+.dashboard{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:40px;
+max-width:1200px;
+margin:auto;
+}
+
+.metric{
+background:#111827;
+padding:25px;
+border-radius:15px;
+text-align:center;
+border:1px solid #334155;
+}
+
+.metric h2{
+font-size:2.5rem;
+color:#22c55e;
+}
+
+.metric p{
+color:#94a3b8;
+}
+
+.section{
+max-width:1200px;
+margin:30px auto;
+padding:30px;
+background:#111827;
+border-radius:15px;
+}
+
+.section h2{
+margin-bottom:20px;
+color:#60a5fa;
+}
+
+.audit-table{
+width:100%;
+border-collapse:collapse;
+}
+
+.audit-table th{
+background:#2563eb;
+padding:15px;
+}
+
+.audit-table td{
+padding:15px;
+border:1px solid #334155;
+}
+
+.pass{
+color:#22c55e;
+font-weight:bold;
+}
+
+.medium{
+color:#f59e0b;
+font-weight:bold;
+}
+
+.high{
+color:#ef4444;
+font-weight:bold;
+}
+
+.button{
+display:inline-block;
+margin-top:20px;
+padding:15px 30px;
+background:#22c55e;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:10px;
+}
+
+.button:hover{
+background:#16a34a;
+}
+
+footer{
+text-align:center;
+padding:30px;
+margin-top:40px;
+background:#020617;
+color:#94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+<h1>🔐 Secure Authentication Audit Report</h1>
+<p>Cyber Security Internship Project | Authentication Security Assessment</p>
+</div>
+
+<div class="dashboard">
+
+<div class="metric">
+<h2>15</h2>
+<p>Security Controls Reviewed</p>
+</div>
+
+<div class="metric">
+<h2>4</h2>
+<p>Audit Categories</p>
+</div>
+
+<div class="metric">
+<h2>92%</h2>
+<p>Compliance Score</p>
+</div>
+
+<div class="metric">
+<h2>Low</h2>
+<p>Overall Risk Level</p>
+</div>
+
+</div>
+
+<div class="section">
+<h2>📋 Audit Overview</h2>
+
+<p>
+This audit evaluates the effectiveness of authentication controls,
+password policies, session management mechanisms, multi-factor
+authentication implementation, and access control measures used
+within a web application environment.
+</p>
+</div>
+
+<div class="section">
+<h2>🎯 Audit Objectives</h2>
+
+<ul>
+<li>Review authentication mechanisms.</li>
+<li>Assess password security.</li>
+<li>Evaluate MFA implementation.</li>
+<li>Analyze session management.</li>
+<li>Identify authentication weaknesses.</li>
+<li>Recommend security improvements.</li>
+</ul>
+
+</div>
+
+<div class="section">
+<h2>🔎 Authentication Control Assessment</h2>
+
+<table class="audit-table">
+
+<tr>
+<th>Control</th>
+<th>Status</th>
+<th>Risk</th>
+</tr>
+
+<tr>
+<td>Password Complexity</td>
+<td class="pass">PASS</td>
+<td>Low</td>
+</tr>
+
+<tr>
+<td>Multi-Factor Authentication</td>
+<td class="pass">PASS</td>
+<td>Low</td>
+</tr>
+
+<tr>
+<td>Session Timeout</td>
+<td class="pass">PASS</td>
+<td>Low</td>
+</tr>
+
+<tr>
+<td>Account Lockout Policy</td>
+<td class="medium">REVIEW</td>
+<td>Medium</td>
+</tr>
+
+<tr>
+<td>Role Based Access Control</td>
+<td class="pass">PASS</td>
+<td>Low</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="section">
+
+<h2>⚠ Key Findings</h2>
+
+<ul>
+<li>Strong password policy implemented.</li>
+<li>MFA available for user accounts.</li>
+<li>Secure cookie settings configured.</li>
+<li>Authorization controls functioning properly.</li>
+<li>Account lockout duration should be improved.</li>
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>🛡 Recommendations</h2>
+
+<ul>
+<li>Require MFA for all privileged accounts.</li>
+<li>Improve lockout duration policies.</li>
+<li>Conduct periodic authentication audits.</li>
+<li>Review authentication logs regularly.</li>
+<li>Implement adaptive authentication controls.</li>
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>📄 Full Audit Report</h2>
+
+<p>
+Download the complete authentication audit report.
+</p>
+
+<a class="button"
+href="Secure_Auth_Audit_Report_ADITYA.pdf"
+target="_blank">
+View Audit Report
+</a>
+
+</div>
+
+<div class="section">
+
+<h2>👨‍💻 Auditor</h2>
+
+<p><strong>ADITYA</strong></p>
+
+<p>Cyber Security Internship Project Submission</p>
+
+</div>
+
+<footer>
+
+© 2026 ADITYA | Secure Authentication Audit Report
+
+</footer>
+
+</body>
+</html>
